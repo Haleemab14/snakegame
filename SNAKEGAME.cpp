@@ -137,10 +137,10 @@ public:
         char key;
         cin >> key;
         switch (key) {
-        case 'w': snake->changeDirection(DIR_UP); break;
-        case 'a': snake->changeDirection(DIR_LEFT); break;
-        case 's': snake->changeDirection(DIR_DOWN); break;
-        case 'd': snake->changeDirection(DIR_RIGHT); break;
+        case 'w': snake->changeDirection(DIR_UP); break;  //for up
+        case 'a': snake->changeDirection(DIR_LEFT); break; //for left
+        case 's': snake->changeDirection(DIR_DOWN); break;  //for down
+        case 'd': snake->changeDirection(DIR_RIGHT); break;  //for right
         }
     }
 };
